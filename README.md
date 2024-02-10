@@ -50,7 +50,7 @@ Unfortunately RGB led share the same pin than SD Card GPIO2 so if you want to us
 
 # Firmware 
 
-It's compatible with Arduino IDE, Visual Studio Code and also Micro Python since this board use same CPU than Adafruit [QT-PY-ESP32-PICO](https://learn.adafruit.com/adafruit-qt-py-esp32-pico)
+It's compatible with Arduino IDE, Visual Studio Code and also Micro Python.
 
 You can write your own and use with [LibTeleinfo](https://github.com/hallard/LibTeleinfo) library I wrote if you want to get rid of driving teleinfo stuff (chekout some [examples](ttps://github.com/hallard/LibTeleinfo/tree/master/examples)).
 
@@ -107,7 +107,7 @@ If you want to deep into this process or just curious, you can check out it's [h
 
 :memo: If you have some issues flashing with Web Flasher, do not hesitate to use another awesome tool [ESP Flasher](https://github.com/Jason2866/ESP_Flasher), with this one you can see exactly what's going on in case of issue because it has built in console. Usefull also after reboot of the device because console still active. This is the one I'm using day by day. In this case you need to download firmware to flash first [here](https://github.com/Jason2866/Tasmota-specials/tree/firmware/firmware/tasmota/other). Download firmware `tasmota-teleinfo`
 
-You can take a look on `autoconf` [folder](https://github.com/tasmota/autoconf/tree/main/raw/esp32/Wemos_Teleinfo) to see some of init commands used on EthTinfo.
+You can take a look on `autoconf` [folder](https://github.com/tasmota/autoconf/tree/main/raw/esp32/EthTinfo_V1.0) to see some of init commands used on EthTinfo.
 
 :memo: Don't forget to reset Energy counters on first boot with console command `EnergyTotal 0` if you have erratic values. 
 
@@ -130,14 +130,14 @@ With SD Card and RGB Led
 ```
 -->
 
-#### V1.0
+#### V1.0 With SD Card (No RGB Led)
 
-With SD Card (No RGB Led)
 ```json
 {"NAME":"EthTinfo (Olimex ESP32)","GPIO":[1,1,8864,1,0,1,0,0,5536,1,8832,8800,0,0,5600,1,1,1,1,5568,1,1,1,1,0,0,0,0,1,1,32,1,5632,1,1,1],"FLAG":0,"BASE":1}
 ```
 
-With RGB Led (No SD Card)
+#### V1.0 With RGB Led (No SD Card)
+
 ```json
 {"NAME":"Olimex ESP32-PoE","GPIO":[1,1,1376,1,0,1,0,0,5536,1,1,1,0,0,5600,1,1,1,1,5568,1,1,1,1,0,0,0,0,1,1,32,1,5632,1,1,1],"FLAG":0,"BASE":1}
 ```
@@ -439,7 +439,7 @@ If you want to do commercial stuff with this project, please contact [CH2i compa
 
 # Lazy building your own? 
 
-Available soon on my [tindie][1] store
+Available soon on my tindie store
 
 <!-- V1.1
 You can order this module (V1.3a only) fully assembled with some extra on [tindie][1]
