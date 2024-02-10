@@ -2,7 +2,13 @@
 
 <img src="https://github.com/hallard/EthTinfo/blob/main/pictures/EthTinfo-assembled.jpg" alt="Ethernet Teleinfo on Olimex ESP32 POE">
 
-This shield is to be combined with [Olimex ESP32 POE board](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) to get French energy meter called Teleinfo (AKA TIC) and has the following features:
+This shield is to be combined with [Olimex ESP32 POE board](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) to get French energy meter called Teleinfo (AKA TIC) 
+
+
+It is mainly needed when your smartmeter his far from house and WiFi signal too weak and/or if you don't have power near your smartmeter to power Denky, WeMos Teleinfo or any other type of board. Having Ethernet near smart mater and you done with POE, Olimex board and this Shield.
+
+
+It has the following features:
 
 - Teleinfo Reader interface
 - Blue LED to see if Teleinfo signal is received
