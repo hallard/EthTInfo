@@ -1,6 +1,6 @@
 # Ethernet Teleinfo Shield for Olimex ESP32 POE
 
-<img src="https://github.com/hallard/EthTinfo/blob/main/pictures/EthTinfo-assembled.png" alt="Ethernet Teleinfo on Olimex ESP32 POE">
+<img src="https://github.com/hallard/EthTinfo/blob/main/pictures/EthTinfo-assembled.jpg" alt="Ethernet Teleinfo on Olimex ESP32 POE">
 
 This shield is to be combined with [Olimex ESP32 POE board](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) to get French energy meter called Teleinfo (AKA TIC) and has the following features:
 
@@ -51,7 +51,7 @@ Unfortunately RGB led share the same pin than SD Card GPIO2 so if you want to us
 
 <img src="https://github.com/hallard/EthTinfo/blob/main/pictures/EthTinfo-top.jpg" alt="Ethernet Teleinfo Top">
 
-<img src="https://github.com/hallard/EthTinfo/blob/main/pictures/EthTinfo-bottom.png" alt="Ethernet Teleinfo Bottom">
+<img src="https://github.com/hallard/EthTinfo/blob/main/pictures/EthTinfo-bot.jpg" alt="Ethernet Teleinfo Bottom">
 
 
 # Firmware 
