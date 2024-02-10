@@ -431,6 +431,10 @@ load("teleinfo.be")
 <img src="https://github.com/hallard/Denky-D4/blob/main/pictures/Denky-D4-tasmota-custom-ui.png" alt="Ethernet Teleinfo Custom User Interface">
 
 
+## Working board 
+
+<img src="https://github.com/hallard/EthTinfo/blob/main/pictures/EthTinfo-working.jpg" alt="Ethernet Teleinfo Working on Olimex ESP32 POE">
+
 # Support and discussion
 
 If you have any issue or just want to discuss on this project, please use community [forum](https://community.ch2i.eu/category/20)
