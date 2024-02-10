@@ -24,6 +24,12 @@ It is a plug and play board, nothing to solder or assemble.
 
 # Detailed Description
 
+## Connectivity
+
+The shield is connected thru Olimex UExt connector
+
+<img src="https://github.com/hallard/EthTinfo/blob/main/pictures/olimex-uext.jpg" alt="Olimex UEXT conenctor">
+
 Look at the schematics for more informations, easy to understand. Wiring is as follow:
 
 | Pin Function | ESP32 | 
