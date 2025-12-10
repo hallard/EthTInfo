@@ -140,6 +140,12 @@ With SD Card and RGB Led
 ```
 -->
 
+#### V1.1 With SD Card And RGB Led
+
+```json
+{"NAME":"EthTinfo (Olimex ESP32)","GPIO":[1,1,8864,1,0,1376,0,0,5536,1,8832,8800,0,0,5600,1,1,1,1,5568,1,1,1,1,0,0,0,0,1,1,32,1,5632,1,1,1],"FLAG":0,"BASE":1}
+```
+
 #### V1.0 With SD Card (No RGB Led)
 
 ```json
