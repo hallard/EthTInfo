@@ -19,10 +19,10 @@ It is a plug and play board, nothing to solder or assemble.
 
 # History
 
-<!-- V1.1
 **v1.1**
-- Route RGB Led to GPIO5 
--->
+
+- Route RGB Led to GPIO5 instead of GPO2 (used by SD card)
+- Change RGB Led to 2020 package
 
 **v1.0**
 
@@ -41,11 +41,9 @@ Look at the schematics for more informations, easy to understand. Wiring is as f
 | Pin Function | ESP32 | 
 |  :---        | :---: | 
 | Téléinfo Rx  | GPIO36 | 
-| RGB Led      | GPIO2 | 
+| RGB Led      | GPIO5 (V1.1) | 
+| RGB Led      | GPIO2 (V1.0) | 
 
-<!-- V1.1
-| RGB Led      | GPIO5 | 
--->
 
 Unfortunately RGB led share the same pin than SD Card GPIO2 so if you want to use RGB LED you need to disable SD Card GPIO mapping and vice versa
 
