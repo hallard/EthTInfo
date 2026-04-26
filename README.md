@@ -459,9 +459,12 @@ If you want to do commercial stuff with this project, please contact [CH2i compa
 
 # Lazy building your own? 
 
-You can order this module fully assembled with some extra on [tindie][1]
+You can order this module fully assembled with some extra on [tindie][1] or on [Lectronz](https://lectronz.com/products/ethtinfo).
 
+European customers may prefer ordering on Lectronz, which offers additional payment methods and pricing in Euros.
 
+<a href="https://lectronz.com/stores/hallard" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
+<a href="https://lectronz.com/products/ethtinfo" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png" /></a>
 <a href="https://www.tindie.com/products/33668/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
 # Misc
